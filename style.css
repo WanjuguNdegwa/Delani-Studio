@@ -31,7 +31,7 @@
 #what-we-do {
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 35vh;
+    height: 40vh;
 }
 
 #what-we-do h2 {
@@ -43,21 +43,52 @@
     cursor: pointer;
 }
 
-#design-description, #development-description, #product-management-description {
+#design-description,
+#development-description,
+#product-management-description {
     display: none;
     cursor: pointer;
 }
 
 #portfolio img {
     width: 220px;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    /* margin-left: 10px;
+    margin-bottom: 20px; */
+}
+
+.project {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-description {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(0, 7, 10, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.portfolio-description p {
+    color: white;
+    border: 3px solid white;
+    font-weight: bold;
+    padding: 20px;
 }
 
 #contact-us {
     background-image: url("./images/backgrounds/c_image.jpg");
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
     color: white;
 }
 #contact-us h2 {
