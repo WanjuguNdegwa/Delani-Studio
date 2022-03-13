@@ -67,6 +67,7 @@
 }
 #contact-us input, #contact-us textarea {
     background-color: transparent;
+    color: white;
 }
 
 #contact-us textarea {

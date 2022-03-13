@@ -25,4 +25,10 @@ $(document).ready(function(){
         $("#product-management-description").show();
         $("#product-management-icon").hide();
     })
+
+    $("form").submit(function(event){
+        event.preventDefault()
+        const name=$("#name").val();
+        alert(name + " we have received your message. Thank you for reaching out to us. ")
+    })
 })
