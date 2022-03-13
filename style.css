@@ -14,7 +14,6 @@
     margin-left: 12%;
     margin-right: 12%;
     margin-bottom: 3%;
-
 }
 
 #services {
@@ -23,17 +22,52 @@
     color: white;
 }
 
-#what-we-do{
+#what-we-do {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
-#what-we-do h2{
+#what-we-do h2 {
     margin-bottom: 2%;
 }
 
-#portfolio img{
-    width: 200px;
+#portfolio img {
+    width: 220px;
     margin-left: 10px;
     margin-bottom: 20px;
+}
+
+#contact-us {
+    background-image: url("./images/backgrounds/c_image.jpg");
+    background-size: cover;
+    height: 50vh;
+    color: white;
+}
+#contact-us h2 {
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#contact-us input, #contact-us textarea {
+    background-color: transparent;
+}
+
+#contact-us textarea {
+margin-top: 2%;
+height: 180px;
+}
+
+::placeholder { 
+    color: white !important;
+    opacity: 1; 
+}
+
+#contact-us form {
+    width: 70%;
+}
+
+#images {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 3%;
 }
