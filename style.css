@@ -1,0 +1,10 @@
+#welcome {
+    background-image: url("./images/backgrounds/h_img.jpg");
+    height: 100vh;
+    color: white;
+}
+
+#mouse-click {
+    position: absolute;
+    bottom: 50px;
+}
