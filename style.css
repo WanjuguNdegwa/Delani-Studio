@@ -16,3 +16,9 @@
     margin-bottom: 3%;
 
 }
+
+#services {
+    background-image: url("./images/backgrounds/s_image.jpg");
+    height: 50vh;
+    color: white;
+}
