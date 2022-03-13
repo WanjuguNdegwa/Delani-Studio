@@ -31,3 +31,9 @@
 #what-we-do h2{
     margin-bottom: 2%;
 }
+
+#portfolio img{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
