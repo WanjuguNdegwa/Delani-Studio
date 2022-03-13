@@ -3,7 +3,7 @@ body {
 }
 #welcome {
     background-image: url("./images/backgrounds/h_img.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     color: white;
@@ -37,8 +37,19 @@ body {
     height: 40vh;
 }
 
+@media screen and (max-width: 480px) {
+    #what-we-do {
+      height: 100vh;
+    }
+  }
+  
+
 #what-we-do h2 {
     margin-bottom: 2%;
+}
+
+#what-we-do p {
+    font-size: small;
 }
 
 #what-we-do img {
@@ -55,8 +66,6 @@ body {
 
 #portfolio img {
     width: 220px;
-    /* margin-left: 10px;
-    margin-bottom: 20px; */
 }
 
 .project {
