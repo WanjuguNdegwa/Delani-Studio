@@ -1,7 +1,13 @@
 #welcome {
     background-image: url("./images/backgrounds/h_img.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 100vh;
     color: white;
+}
+
+#logo {
+    margin-bottom: 5%;
 }
 
 #mouse-click {
@@ -25,10 +31,21 @@
 #what-we-do {
     margin-top: 5%;
     margin-bottom: 5%;
+    height: 25vh;
 }
 
 #what-we-do h2 {
     margin-bottom: 2%;
+}
+
+#what-we-do img {
+    height: 80px;
+    cursor: pointer;
+}
+
+#design-description, #development-description, #product-management-description {
+    display: none;
+    cursor: pointer;
 }
 
 #portfolio img {
