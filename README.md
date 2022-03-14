@@ -15,11 +15,11 @@ You need a modern web browser and an internet connection to view the project on 
 2. Open the index.html file in your browser
 
 ## Technologies Used
-* HTML
-* JavaScript
 * jQuery
-* CSS
+* JavaScript
 * Bootstrap 5
+* HTML
+* CSS
 * Google Fonts
 
 ## Support
